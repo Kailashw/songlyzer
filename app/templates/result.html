@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Song Summary</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #ecf0f1;
+      padding: 40px;
+    }
+    .container {
+      background: white;
+      max-width: 600px;
+      margin: auto;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    }
+    h2 {
+      color: #2c3e50;
+      text-align: center;
+    }
+    p {
+      font-size: 16px;
+      line-height: 1.6;
+    }
+    strong {
+      color: #2d3436;
+    }
+    a {
+      display: block;
+      margin-top: 20px;
+      text-align: center;
+      color: #2980b9;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>{{ artist }} - {{ title }}</h2>
+    <p><strong>Summary:</strong> {{ summary }}</p>
+    <p><strong>Countries Mentioned:</strong> {{ countries | join(', ') if countries else 'None' }}</p>
+    <a href="/">🔁 Analyze Another Song</a>
+  </div>
+</body>
+</html>
