@@ -45,5 +45,8 @@ docker run -p 8000:8000 --env-file .env songlyzer
 - With country names
 <img width="480" alt="Screenshot 2025-04-03 at 10 49 17 AM" src="https://github.com/user-attachments/assets/dac79f3a-b2a0-47ae-ae37-47d20f70a90a" />
 
+- WIth No matching Lyrics found
+<img width="480" alt="Screenshot 2025-04-03 at 11 00 34 AM" src="https://github.com/user-attachments/assets/09fdaa61-d188-4e1f-a00b-0a4225d1ee2f" />
+
 
 
