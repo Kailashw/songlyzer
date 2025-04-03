@@ -37,3 +37,13 @@ cp .env.example .env
 docker build -t songlyzer .
 docker run -p 8000:8000 --env-file .env songlyzer
 ```
+
+## Output Images
+- Without Country name
+<img width="480" alt="Screenshot 2025-04-03 at 10 49 23 AM" src="https://github.com/user-attachments/assets/0c4de169-8a7f-4290-a5ed-91f3e4487eb8" />
+
+- With country names
+<img width="480" alt="Screenshot 2025-04-03 at 10 49 17 AM" src="https://github.com/user-attachments/assets/dac79f3a-b2a0-47ae-ae37-47d20f70a90a" />
+
+
+
