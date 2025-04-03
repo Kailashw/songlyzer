@@ -48,5 +48,8 @@ docker run -p 8000:8000 --env-file .env songlyzer
 - WIth No matching Lyrics found
 <img width="480" alt="Screenshot 2025-04-03 at 11 00 34 AM" src="https://github.com/user-attachments/assets/09fdaa61-d188-4e1f-a00b-0a4225d1ee2f" />
 
+- Login Page
+<img width="551" alt="Screenshot 2025-04-03 at 11 28 32 AM" src="https://github.com/user-attachments/assets/98382d9c-af86-4988-833e-07d366457fb2" />
+
 
 
