@@ -22,8 +22,8 @@ A web app to summarize lyrics and detect mentioned countries from a song using e
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/yourname/songlyzer-fastapi.git
-cd songlyzer-fastapi
+git clone https://github.com/yourname/songlyzer.git
+cd songlyzer
 ```
 
 ### 2. enter the required values in .env file
