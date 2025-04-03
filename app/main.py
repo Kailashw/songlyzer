@@ -12,7 +12,7 @@ from app.services.cache import get_cached_song, cache_song
 
 app = FastAPI()
 
-app.mount("/static", StaticFiles(directory="static"), name="static")
+# app.mount("/static", StaticFiles(directory="static"), name="static")
 app.add_middleware(SessionMiddleware, secret_key=os.getenv("SESSION_SECRET_KEY", "devsecret"))
 
 templates = Jinja2Templates(directory="app/templates")
