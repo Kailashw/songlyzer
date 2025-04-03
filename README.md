@@ -37,6 +37,8 @@ cp .env.example .env
 docker build -t songlyzer .
 docker run -p 8000:8000 --env-file .env songlyzer
 ```
+### Accessing the app
+- use the credntials set by you in .env file to login
 
 ## Output Images
 - Without Country name
