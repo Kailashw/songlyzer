@@ -34,7 +34,7 @@ def form_post(request: Request, artist: str = Form(...), title: str = Form(...))
     print("summary:", summary)
     countries = extract_countries(lyrics)
     print("countries:", countries)
-    result = {"artist": artist, "title": title, "summary": summary, "countries": countries}
+    result = {"artist": artist, "title": title, "summary": summary, "countries": countries, "lyrics": lyrics}
 
     cache_song(cache_key, result)
     return templates.TemplateResponse("result.html", {"request": request, **result})

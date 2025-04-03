@@ -6,3 +6,4 @@ openai
 pycountry
 python-dotenv
 python-multipart
+groq
