@@ -7,3 +7,4 @@ pycountry
 python-dotenv
 python-multipart
 groq
+itsdangerous

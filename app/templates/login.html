@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login - Songlyzer</title>
+  <style>
+    body { font-family: Arial; background: #f5f6fa; padding: 40px; }
+    .container { max-width: 350px; background: white; margin: auto; padding: 30px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+    input, button { width: 100%; padding: 10px; margin-top: 10px; }
+    h2 { text-align: center; color: #2f3640; }
+    .error { color: red; text-align: center; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Login</h2>
+    {% if error %}<p class="error">{{ error }}</p>{% endif %}
+    <form method="post" action="/login">
+      <input type="text" name="username" placeholder="Username" required>
+      <input type="password" name="password" placeholder="Password" required>
+      <button type="submit">Login</button>
+    </form>
+  </div>
+</body>
+</html>
